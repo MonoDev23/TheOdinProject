@@ -1,0 +1,19 @@
+Commandes liées à un référentiel distant :
+- git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
+- git push or git push origin main
+
+Commandes liées au flux de travail :
+- git add .
+- git commit -m "A message describing what you have done to make this snapshot different"
+
+Commandes liées à la vérification de l'état ou de l'historique du journal
+- git status
+- git log
+
+La syntaxe de base de Git est program | action | destination.
+
+Par exemple,
+
+- git add . est lu comme git | add | ., où la période représente tout dans le répertoire actuel;
+- git commit -m "message" est lu comme git | commit -m | "message";
+- git status est lu comme git | status | (no desitination);
