@@ -1,0 +1,158 @@
+/*-- FONT ROBOTO --*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/*--- contenu ---*/
+.container{
+    background-color: #1f2937;
+    width: 100%;
+    height: 100vh;
+}
+/*--- Header ---*/
+.header{
+    max-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 150px;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+/*--- hero ---*/
+.hero{
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+.title h1{
+    font-size: 60px !important;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.title p{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 12px;
+}
+.title .signup{
+    background-color: #3882f8;
+    color: #f9faf8;
+    border: none;
+    font-size: 12px;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+.picture{
+    width: 900px;
+    height: 500px;
+    background-color: #3882f8;
+}
+
+/*---------- boxing pictures -----------*/
+.boxing{
+    padding: 50px 150px;
+    text-align: center;
+}
+.boxing h2{
+    font-size: 36px;
+    margin-bottom: 32px;
+}
+.box{
+    max-width: 200px;
+}
+.contain2{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.pict{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 4px solid #3882f8;
+}
+/*---------- quotes citations -----------*/
+.quotes{
+    background-color: #e5e7eb;
+    height: 40vh;
+    padding: 50px 500px;
+}
+.quotes p{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+.actors{
+    padding-right: 100px;
+}
+.actors p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: right;
+}
+
+/*---------- Newsletter -----------*/
+.newsletter{
+    padding: 80px 250px;
+}
+.card{
+    background-color: #3882f8;
+    padding: 50px 250px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.card p span{
+    font-size: 21px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+.card p{
+    color: #e5e7eb;
+}
+.btn{
+    background-color: transparent;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    font-size: 12px;
+    padding: 5px 42px;
+    border-radius: 8px;
+    font-weight: 600;
+
+}
+
+/*---------- Footer -----------*/
+.footer{
+    background-color: #1f2937;
+    height: 8vh;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer p{
+    font-size: 18px;
+    font-weight: 400;
+}
