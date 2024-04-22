@@ -1,0 +1,8 @@
+1//Lire l'article de MDN sur les polices web :
+=> https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts
+
+2// Lire les bonnes pratiques en matières de polices :
+=> https://web.dev/articles/font-best-practices?hl=fr
+
+3// Lire Web Dev Typographie :
+=> https://web.dev/learn/design/typography
